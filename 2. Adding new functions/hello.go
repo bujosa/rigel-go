@@ -1,13 +1,14 @@
 package hello
 
 import (
-	quote "rsc.io/quote/v3"
+	"rsc.io/quote"
+	quoteV3 "rsc.io/quote/v3"
 )
 
 func Hello() string {
-	return quote.HelloV3()
+    return quote.Hello()
 }
 
 func Proverb() string {
-	return quote.Concurrency()
+    return quoteV3.Concurrency()
 }
