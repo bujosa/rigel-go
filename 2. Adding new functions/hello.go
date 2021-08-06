@@ -5,8 +5,8 @@ import (
 	quoteV3 "rsc.io/quote/v3"
 )
 
-func Hello() string {
-    return quote.Hello()
+func Glass() string {
+    return quote.Glass()
 }
 
 func Proverb() string {
