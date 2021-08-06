@@ -1,7 +1,7 @@
 package hello
 
 import (
-	"rsc.io/quote/v3"
+	quote "rsc.io/quote/v3"
 )
 
 func Hello() string {
